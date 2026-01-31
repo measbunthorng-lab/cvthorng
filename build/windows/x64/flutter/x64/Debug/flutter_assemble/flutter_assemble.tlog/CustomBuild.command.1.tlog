@@ -1,0 +1,28 @@
+^C:\USERS\USER\ONEDRIVE\DESKTOP\PROJECT 3\CV_TEST\BUILD\WINDOWS\X64\CMAKEFILES\FFB61F32CEAD08E520E5E46B8C743295\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\flutter "PROJECT_DIR=C:\Users\USER\OneDrive\Desktop\Project 3\cv_test" FLUTTER_ROOT=C:\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\USER\OneDrive\Desktop\Project 3\cv_test\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\USER\OneDrive\Desktop\Project 3\cv_test" "FLUTTER_TARGET=C:\Users\USER\OneDrive\Desktop\Project 3\cv_test\lib\main.dart" DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\USER\OneDrive\Desktop\Project 3\cv_test\.dart_tool\package_config.json" C:/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\ONEDRIVE\DESKTOP\PROJECT 3\CV_TEST\BUILD\WINDOWS\X64\CMAKEFILES\E73E16DF6581579D89306B47DE1F9D54\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\USER\ONEDRIVE\DESKTOP\PROJECT 3\CV_TEST\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/USER/OneDrive/Desktop/Project 3/cv_test/windows" "-BC:/Users/USER/OneDrive/Desktop/Project 3/cv_test/build/windows/x64" --check-stamp-file "C:/Users/USER/OneDrive/Desktop/Project 3/cv_test/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
